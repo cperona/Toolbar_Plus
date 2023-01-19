@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_buscar"
+          android:title="Buscar"
+          android:icon="?android:attr/actionModeWebSearchDrawable"
+          android:orderInCategory="101"
+          app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/action_afegir"
+          android:title="Afegir"
+          android:icon="@android:drawable/ic_input_add"
+          android:orderInCategory="101"
+          app:showAsAction="ifRoom|withText" />
+    <item android:id="@+id/action_perfil"
+          android:title="Perfil"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+</menu>
